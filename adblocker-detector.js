@@ -21,13 +21,13 @@ function detectAdBlock(callback) {
     function loadHandler() {
         if (!done) {
             done = true;
-            callback(true);
+            callback(false);
         }
     }
     function errorHandler() {
         if (!done) {
             done = true;
-            callback(false);
+            callback(true);
         }
     }
 }

@@ -7,10 +7,10 @@ Example usage:
 
 	detectAdBlock(function(active){
     	if (active) {
-        	alert('AdBlocker not detected. All clear');
+        	alert('AdBlocker detected!');
     	}
     	else {
-        	alert('AdBlocker detected!');
+        	alert('AdBlocker not detected. All clear');
     	}
 	});
 
